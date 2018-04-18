@@ -12,6 +12,7 @@ Main functions of this extension are listed below:
 * Supported format: csv, tsv, json, vl.json
 * Method 1: open through context menu
 Right click on target file in Jupyterlab =>  select ‘open with’  => select ‘Voyager (filetype)’	
+![image](tutorial.jpg)
 
 * Method 2: open through top menu bar
 Select target files in JupyterLab => Click ‘Voyager’ in top menu =>  select ‘open file in Voyager’
