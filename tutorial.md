@@ -5,15 +5,19 @@ and couples faceted browsing with visualization recommendation to support explor
 This extension can read data from  local file or graphs and tables in notebook cell, and pass it to Voyager interface 
 to provide analytical reasoning through graphics.
 
-## General
+Main functions of this extension are listed below:
 
-* [What is JupyterLab?](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html)
-* [How stable is JupyterLab?](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html)
-* [What will happen to the classic Jupyter Notebook?](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html#beta)
-* [Where is the documentation for JupyterLab?](https://jupyterlab.readthedocs.io/en/stable/)
+## Open local files in Voyager
 
-## Development
+* Supported format: csv, tsv, json, vl.json
+* Method 1: open through context menu
+Right click on target file in Jupyterlab =>  select ‘open with’  => select ‘Voyager (filetype)’	
 
-* [How can you report a bug or provide feedback?](https://github.com/jupyterlab/jupyterlab/issues)
-* [How can you contribute?](https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md)
-* [How can you extend or customize JupyterLab?](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)
+* Method 2: open through top menu bar
+Select target files in JupyterLab => Click ‘Voyager’ in top menu =>  select ‘open file in Voyager’
+
+
+## Open Notebook Table&Graph in Voyager
+When using JupyterLab notebook cell graphs&tables as data source, a local ‘vl.json’ file containing data will be created before the voyager opens.
+* Method: open through context menu
+Right click on target graph or table  in Jupyterlab notebook cell =>  select ‘open with Voyager’
